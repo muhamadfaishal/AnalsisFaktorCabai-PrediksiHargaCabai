@@ -1,31 +1,11 @@
-# ==============================================================================
-#                 Requirements for Streamlit App (FIXED)
-#       Analisis Faktor (Random Forest) & Prediksi Harga (LSTM)
-# ==============================================================================
-#
-# Menentukan versi Python yang stabil dan kompatibel dengan TensorFlow
-python==3.11
+# Requirements for Streamlit App (Corrected for Deployment)
+# Versi Python diatur melalui dashboard Streamlit, BUKAN di file ini.
 
-# Framework utama untuk membangun aplikasi web
 streamlit==1.36.0
-
-# Untuk manipulasi dan analisis data
 pandas==2.2.2
-
-# Untuk komputasi numerik
 numpy==1.26.4
-
-# Library utama untuk machine learning
 scikit-learn==1.4.2
-
-# Framework deep learning untuk model LSTM (kompatibel dengan Python 3.11)
 tensorflow==2.16.1
-
-# Untuk membuat visualisasi data
 matplotlib==3.8.4
-
-# Untuk visualisasi statistik
 seaborn==0.13.2
-
-# Diperlukan oleh pandas untuk membaca file Excel (.xlsx)
 openpyxl==3.1.2

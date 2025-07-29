@@ -1,38 +1,31 @@
 # ==============================================================================
-#                 Requirements for Streamlit App
+#                 Requirements for Streamlit App (FIXED)
 #       Analisis Faktor (Random Forest) & Prediksi Harga (LSTM)
 # ==============================================================================
 #
-# Cara Menggunakan:
-# 1. Simpan file ini dengan nama 'requirements.txt' di direktori yang sama
-#    dengan file aplikasi Python Anda.
-# 2. Buka terminal atau command prompt.
-# 3. Buat dan aktifkan virtual environment (sangat disarankan).
-# 4. Jalankan perintah berikut untuk menginstal semua library:
-#    pip install -r requirements.txt
-#
-# ------------------------------------------------------------------------------
+# Menentukan versi Python yang stabil dan kompatibel dengan TensorFlow
+python==3.11
 
 # Framework utama untuk membangun aplikasi web
-streamlit
+streamlit==1.36.0
 
-# Untuk manipulasi dan analisis data (DataFrame)
-pandas
+# Untuk manipulasi dan analisis data
+pandas==2.2.2
 
-# Untuk komputasi numerik, terutama array multidimensi
-numpy
+# Untuk komputasi numerik
+numpy==1.26.4
 
-# Library utama untuk machine learning (Random Forest, metrik, preprocessing)
-scikit-learn
+# Library utama untuk machine learning
+scikit-learn==1.4.2
 
-# Framework deep learning untuk model LSTM
-tensorflow
+# Framework deep learning untuk model LSTM (kompatibel dengan Python 3.11)
+tensorflow==2.16.1
 
-# Untuk membuat visualisasi data (grafik dan plot)
-matplotlib
+# Untuk membuat visualisasi data
+matplotlib==3.8.4
 
-# Dibangun di atas matplotlib untuk visualisasi statistik yang lebih menarik
-seaborn
+# Untuk visualisasi statistik
+seaborn==0.13.2
 
-# Diperlukan oleh pandas untuk membaca dan menulis file Excel (.xlsx)
-openpyxl
+# Diperlukan oleh pandas untuk membaca file Excel (.xlsx)
+openpyxl==3.1.2

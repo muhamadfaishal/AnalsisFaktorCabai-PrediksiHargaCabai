@@ -1,0 +1,38 @@
+# ==============================================================================
+#                 Requirements for Streamlit App
+#       Analisis Faktor (Random Forest) & Prediksi Harga (LSTM)
+# ==============================================================================
+#
+# Cara Menggunakan:
+# 1. Simpan file ini dengan nama 'requirements.txt' di direktori yang sama
+#    dengan file aplikasi Python Anda.
+# 2. Buka terminal atau command prompt.
+# 3. Buat dan aktifkan virtual environment (sangat disarankan).
+# 4. Jalankan perintah berikut untuk menginstal semua library:
+#    pip install -r requirements.txt
+#
+# ------------------------------------------------------------------------------
+
+# Framework utama untuk membangun aplikasi web
+streamlit
+
+# Untuk manipulasi dan analisis data (DataFrame)
+pandas
+
+# Untuk komputasi numerik, terutama array multidimensi
+numpy
+
+# Library utama untuk machine learning (Random Forest, metrik, preprocessing)
+scikit-learn
+
+# Framework deep learning untuk model LSTM
+tensorflow
+
+# Untuk membuat visualisasi data (grafik dan plot)
+matplotlib
+
+# Dibangun di atas matplotlib untuk visualisasi statistik yang lebih menarik
+seaborn
+
+# Diperlukan oleh pandas untuk membaca dan menulis file Excel (.xlsx)
+openpyxl
